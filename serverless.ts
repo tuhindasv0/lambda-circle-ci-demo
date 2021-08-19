@@ -15,6 +15,9 @@ const serverlessConfiguration: AWS = {
   provider: {
     name: 'aws',
     runtime: 'nodejs14.x',
+    apiGateway: {
+      restApiId: '2kd8204f8d', 
+      restApiRootResourceId: '9df5ik7fyy' },
     environment: {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1',
     },

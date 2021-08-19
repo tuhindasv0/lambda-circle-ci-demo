@@ -11,13 +11,13 @@ const serverlessConfiguration: AWS = {
       includeModules: true,
     },
   },
-  plugins: ['serverless-webpack'],
+  plugins: ['serverless-webpack','serverless-import-apigateway'],
   provider: {
     name: 'aws',
     runtime: 'nodejs14.x',
     apiGateway: {
-      restApiId: '2kd8204f8d', 
-      restApiRootResourceId: '9df5ik7fyy' },
+      restApiId: 'uh9mvvfoa9', 
+      restApiRootResourceId: '5tnipt' },
     environment: {
       AWS_NODEJS_CONNECTION_REUSE_ENABLED: '1',
     },
